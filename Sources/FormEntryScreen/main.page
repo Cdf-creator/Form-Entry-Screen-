@@ -1,0 +1,128 @@
+<?xml  version="1.0" encoding="UTF-8" standalone="no"?>
+<xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0" xmlns:binding="http://scade.com/sdk/data/binding" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:graphics="http://scade.com/sdk/view/graphics" xmlns:layout="http://scade.com/sdk/layout" xmlns:navigation="http://scade.com/lattice/navigation" xmlns:widgetlayouts="http://scade.com/sdk/view/widgets/layout" xmlns:widgets="http://scade.com/sdk/view/widgets">
+  <widgets:Page name="main">
+    <minArea width="390" height="844"/>
+    <location/>
+    <backgroundColor Red="248" Green="248" Blue="248"/>
+    <children xsi:type="widgets:GridView" name="gridView1">
+      <children xsi:type="widgets:RowView" name="rowView1">
+        <children xsi:type="widgets:Button" horizontalAlignment="CENTER" backgroundImage="Assets/backArrow.svg" name="button1">
+          <font fontFamily="ArialMT" size="17">
+            <color Red="68" Green="106" Blue="179"/>
+          </font>
+          <layoutData xsi:type="layout:GridData" verticalAlignment="MIDDLE" heightConstraint="MATCH_PARENT" grabVerticalSpace="true">
+            <minSize width="86" height="23"/>
+            <maxSize width="-1" height="-1"/>
+          </layoutData>
+          <location x="5" y="5"/>
+          <size width="86" height="23"/>
+          <contentSize width="86" height="23"/>
+        </children>
+        <children xsi:type="widgets:Label" text="Form Entry Screen" name="label1" horizontalAlignment="CENTER">
+          <font fontFamily="Arial-BoldMT" size="17">
+            <color/>
+          </font>
+          <layoutData xsi:type="layout:GridData" column="1" verticalAlignment="MIDDLE" heightConstraint="MATCH_PARENT" widthConstraint="MATCH_PARENT" grabVerticalSpace="true" grabHorizontalSpace="true">
+            <minSize width="44" height="22"/>
+            <maxSize width="-1" height="-1"/>
+          </layoutData>
+          <location x="91" y="5"/>
+          <size width="198" height="23"/>
+          <contentSize width="153" height="22"/>
+        </children>
+        <children xsi:type="widgets:Button" horizontalAlignment="CENTER" backgroundImage="Assets/Submit button1.png" name="button2">
+          <font fontFamily="ArialMT" size="17">
+            <color Red="68" Green="106" Blue="179"/>
+          </font>
+          <layoutData xsi:type="layout:GridData" column="2" verticalAlignment="MIDDLE" heightConstraint="MATCH_PARENT" grabVerticalSpace="true">
+            <minSize width="86" height="23"/>
+            <maxSize width="-1" height="-1"/>
+          </layoutData>
+          <location x="289" y="5"/>
+          <size width="86" height="23"/>
+          <contentSize width="86" height="23"/>
+        </children>
+        <layout xsi:type="layout:GridLayout" columns="3" marginRight="5" marginTop="5" marginBottom="5" marginLeft="5"/>
+        <maxArea width="-1" height="-1"/>
+        <location x="5" y="5"/>
+        <minArea/>
+        <size width="380" height="33"/>
+        <layoutData xsi:type="layout:GridData" verticalAlignment="MIDDLE" grabHorizontalSpace="true" widthConstraint="MATCH_PARENT">
+          <maxSize width="-1" height="-1"/>
+        </layoutData>
+      </children>
+      <children xsi:type="widgets:List" name="list1">
+        <template name="template">
+          <element name="listElement">
+            <children xsi:type="widgets:GridView" name="gridView2">
+              <children xsi:type="widgets:Label" text="label2" name="label2">
+                <font fontFamily="ArialMT" size="17">
+                  <color/>
+                </font>
+                <layoutData xsi:type="layout:GridData" verticalAlignment="MIDDLE">
+                  <minSize width="44" height="22"/>
+                  <maxSize width="-1" height="-1"/>
+                </layoutData>
+                <location x="5" y="5"/>
+                <size width="46" height="22"/>
+                <contentSize width="46" height="22"/>
+              </children>
+              <children xsi:type="widgets:Textbox" placeholder=" " cornerRadius="3" tabIndex="5" name="textbox1">
+                <font fontFamily="ArialMT" size="20">
+                  <color Red="255" Green="255" Blue="255"/>
+                </font>
+                <location x="5" y="27"/>
+                <size width="360" height="22"/>
+                <contentSize width="360" height="22"/>
+                <layoutData xsi:type="layout:GridData" row="1" verticalAlignment="MIDDLE" heightConstraint="MATCH_PARENT" grabHorizontalSpace="true" grabVerticalSpace="true" widthConstraint="MATCH_PARENT">
+                  <minSize width="51" height="22"/>
+                  <maxSize width="-1" height="-1"/>
+                </layoutData>
+                <backgroundColor Red="192" Green="192" Blue="192"/>
+              </children>
+              <layout xsi:type="layout:GridLayout" rows="2" marginTop="5" marginBottom="5" marginLeft="5" marginRight="5"/>
+              <maxArea width="-1" height="-1"/>
+              <location x="10"/>
+              <minArea/>
+              <size width="370" height="54"/>
+              <layoutData xsi:type="layout:GridData" grabHorizontalSpace="true" widthConstraint="MATCH_PARENT" grabVerticalSpace="true" heightConstraint="MATCH_PARENT">
+                <maxSize width="-1" height="-1"/>
+              </layoutData>
+            </children>
+            <layout xsi:type="layout:GridLayout" marginLeft="10"/>
+            <maxArea width="-1" height="-1"/>
+            <location/>
+            <minArea height="45"/>
+            <size width="380" height="54"/>
+            <layoutData xsi:type="layout:GridData" grabHorizontalSpace="true" widthConstraint="MATCH_PARENT" heightConstraint="MATCH_PARENT">
+              <minSize/>
+            </layoutData>
+          </element>
+          <location/>
+          <size/>
+        </template>
+        <size width="380" height="801"/>
+        <layout xsi:type="widgetlayouts:ListLayout"/>
+        <maxArea width="-1" height="-1"/>
+        <location x="5" y="38"/>
+        <minArea/>
+        <layoutData xsi:type="layout:GridData" row="1" verticalAlignment="MIDDLE" heightConstraint="MATCH_PARENT" grabHorizontalSpace="true" grabVerticalSpace="true" widthConstraint="MATCH_PARENT">
+          <maxSize width="-1" height="-1"/>
+        </layoutData>
+      </children>
+      <layout xsi:type="layout:GridLayout" rows="2" marginTop="5" marginBottom="5" marginLeft="5" marginRight="5"/>
+      <maxArea width="-1" height="-1"/>
+      <location/>
+      <minArea/>
+      <size width="390" height="844"/>
+      <layoutData xsi:type="layout:GridData" verticalAlignment="MIDDLE" heightConstraint="MATCH_PARENT" grabHorizontalSpace="true" widthConstraint="MATCH_PARENT" grabVerticalSpace="true">
+        <maxSize width="-1" height="-1"/>
+      </layoutData>
+    </children>
+    <layout xsi:type="layout:GridLayout"/>
+    <maxArea width="390" height="844"/>
+    <size width="390" height="844"/>
+  </widgets:Page>
+  <binding:BindingModel/>
+  <navigation:Navigation page="/0"/>
+</xmi:XMI>
